@@ -32,7 +32,7 @@ function is_connected() {
 }
 
 $boolarray = array(false => 'false', true => 'true');
-echo '<table border="1">';
+// echo '<table border="1">'; // use when browser mode
 
 // ob_implicit_flush();
 // ob_start();
@@ -64,20 +64,25 @@ while (true) {
     // Write the contents back to the file
     file_put_contents($logs_file, $current);
 
-    echo '<tr>';
+    // use when browser mode
+    /*echo '<tr>';
     echo '<td>' . $i . '</td>';
     echo '<td>' . date("Y-m-d H:i:s") . ' ' . $date_array[0] . '</td>';
     echo '<td>' . $boolarray[$is_connected] . '</td>';
     echo '</tr>';
     ob_flush();
-    flush();
+    flush();*/
     // ob_end_flush();
     // ob_flush();
+
+    // Command line
+    echo $i . ' | ' . date("Y-m-d H:i:s") . ' ' . $date_array[0] . ' | ' . $boolarray[$is_connected] . "\r\n";
+
     sleep(1);
     $i++;
 }
 
-echo '</table>';
+// echo '</table>'; // use when browser mode
 ob_end_flush();
 
 ?>
