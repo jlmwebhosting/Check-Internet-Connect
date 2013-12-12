@@ -83,6 +83,6 @@ while (true) {
 }
 
 // echo '</table>'; // use when browser mode
-ob_end_flush();
+// ob_end_flush(); // use when browser mode
 
 ?>
