@@ -1,0 +1,14 @@
+###############################################################
+Logs date: 2013-12-12T22:40:27+07:00
+ID - - [DateTime] | Status(boolean)
+###############################################################
+::1 - - [2013-12-12 22:40:27 +07:00 Asia/Bangkok 0.05903500] true www.twitter.com:443
+::2 - - [2013-12-12 22:40:28 +07:00 Asia/Bangkok 0.11609600] true www.facebook.com:443
+::3 - - [2013-12-12 22:40:29 +07:00 Asia/Bangkok 0.35516700] true www.twitter.com:80
+::4 - - [2013-12-12 22:40:30 +07:00 Asia/Bangkok 0.59423800] true www.twitter.com:443
+::5 - - [2013-12-12 22:40:31 +07:00 Asia/Bangkok 0.62229600] true www.kapook.com:80
+::6 - - [2013-12-12 22:40:32 +07:00 Asia/Bangkok 0.70635800] true www.google.com:443
+::7 - - [2013-12-12 22:40:33 +07:00 Asia/Bangkok 0.73341700] true www.kapook.com:80
+::8 - - [2013-12-12 22:40:34 +07:00 Asia/Bangkok 0.76147600] true www.sanook.com:80
+::9 - - [2013-12-12 22:40:35 +07:00 Asia/Bangkok 0.78853500] true www.google.com:80
+::10 - - [2013-12-12 22:40:36 +07:00 Asia/Bangkok 0.82159400] true www.sanook.com:80
